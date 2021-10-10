@@ -6,9 +6,38 @@ main{
     background-color:seagreen;
     color:snow;
     text-align:center;
-    
+    font-size:40px;
+}
+.main-page-parent{
+    text-align:center;
+}
+
+.main-page-parent > .main-page-list{
+    display:inline-block;
 }
 
 .link{
+    font-size:25px;
+}
+
+.main-pic{
+    width:300px;
+    height:auto;
+}
+
+.main-pics{
+    text-align:center;
+}
+
+.description,
+.ingredients,
+.steps{
+    background-color:hsl(120, 62%, 19%);
+    color:snow;
+    text-align:center;
+}
+
+.main-page-button{
+    font-size:26px;
     text-align:center;
 }
